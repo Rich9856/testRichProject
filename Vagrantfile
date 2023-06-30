@@ -10,6 +10,8 @@ Vagrant.configure("2") do |config|
   
   NO_PROXY = "localhost,127.0.0.1"
 
+   config.vm.provision "shell", inline: 
+  
   config.vm.define "Ubuntu" do |machine|
     config.vm.provider "virtualbox" do |vb|
       vb.memory = 2048
