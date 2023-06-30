@@ -1,6 +1,6 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
-
+#rich tanda
 Vagrant.configure("2") do |config|
 
   config.vm.box = "centos/7"
