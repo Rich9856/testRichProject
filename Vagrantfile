@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
   config.vm.network "private_network", ip: "192.168.33.10"
   config.vm.hostname = "Focal64"
   
-  NO_PROXY = "localhost,127.0.0.1"
+  #NO_PROXY = "localhost,127.0.0.1"
 
    config.vm.provision "shell", inline: 
   
